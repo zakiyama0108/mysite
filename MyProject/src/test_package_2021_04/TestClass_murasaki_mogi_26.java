@@ -18,8 +18,8 @@ public class TestClass_murasaki_mogi_26 {
 		
 		boolean a = stream.noneMatch(f);
 		System.out.println("noneMatch Results: " + a);
-//		boolean b = stream.anyMatch(f);
-//		System.out.println("anyMatch Results: " + b);
+		boolean b = stream.anyMatch(f);
+		System.out.println("anyMatch Results: " + b);
 		
 	}
 
